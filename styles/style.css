@@ -14,10 +14,17 @@
     height: 100vh;
 }
 
+.description {
+    background-color: var(--white);
+    border: 3px solid var(--black);
+    height: 85vh;
+    width: 25vw;
+}
+
 .page {
     background-color: var(--white);
     border: 3px solid var(--black);
     border-radius: 10px;
-    height: 90vh;
-    width: 75vw;
+    height: 85vh;
+    width: 70vw;
 }
