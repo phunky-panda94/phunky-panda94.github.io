@@ -3,8 +3,14 @@
 This web app demonstrates use of:
 
 - JavaScript 
+  - factory functions
+  - Module pattern
 - HTML
 - CSS
+  - selectors
+  - pseudo elements & classes
+  - combinators
+  - grid layout
 
 ## Challenges
 

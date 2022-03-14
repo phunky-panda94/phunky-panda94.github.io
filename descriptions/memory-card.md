@@ -10,5 +10,5 @@ This project demonstrates the use of React and the following concepts:
 
 The key challenges I had for this project were:
 
-- implementing the shuffling of images
+- implementing the shuffling and addition of images
 - implementing the score count and level change 

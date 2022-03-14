@@ -32,7 +32,8 @@ Using Node.js, Express, MongoDB and Mongoose:
 The key challenges I had for this project were:
 
 - implementing the ability to vote and unvote while updating the count
-
+- implementing the post and comment age counter
+- updating the user interface depending on if a user is logged in or not
 - getting new posts and comments to be displayed without refreshing the page
-
-- writing complete unit and integration tests for the controllers and REST endpoints
+- writing complete unit and integration tests for the controllers and REST API endpoints
+- cross-origin issues when retrieving data from backend API

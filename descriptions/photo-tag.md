@@ -28,4 +28,6 @@ Using Node.js, Express and MongoDB:
 The key challenges I had for this project were:
 
 - implementing the user interface for tagging
+  - correct sizing and placement of box tags
+  - toggling of box tags
 
