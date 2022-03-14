@@ -2,7 +2,9 @@
 
 This project demonstrates the use of front-end and backend technologies.
 
-**Front-end**
+## Technologies
+
+### **Front-end**
 
 Using React:
 
@@ -13,9 +15,7 @@ Using React:
 - React.Children top-level API
 - mouse events
 
-Deployed using Netlify
-
-**Backend**
+### **Backend**
 
 Using Node.js, Express and MongoDB:
 
@@ -23,4 +23,9 @@ Using Node.js, Express and MongoDB:
 - environment variables using the `dotenv` module
 - NoSQL
 
-Deployed using Heroku
+## Challenges
+
+The key challenges I had for this project were:
+
+- implementing the user interface for tagging
+

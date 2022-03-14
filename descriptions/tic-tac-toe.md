@@ -6,3 +6,9 @@ This web app demonstrates use of:
 - HTML
 - CSS
 
+## Challenges
+
+The key challenges I had for this project were:
+
+- implementing the hover and placement of the knots and cross
+- implementing the logic to determine when a player had won

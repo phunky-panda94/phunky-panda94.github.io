@@ -10,4 +10,9 @@ This React app demonstrates use of:
 - localStorage
 - JSON
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ea75008a-0078-480e-82d8-6bc86d88a95d/deploy-status)](https://app.netlify.com/sites/cv-maker-v1/deploys)
+## Challenges
+
+The key challenges I had for this project were:
+
+- getting details to reflect in the display after submission
+- implementing a 'current' checkbox for dates

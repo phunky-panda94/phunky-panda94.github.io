@@ -26,3 +26,13 @@ Using Node.js, Express, MongoDB and Mongoose:
 ## UML
 
 ![bamboo drawio](https://user-images.githubusercontent.com/63854834/157994143-f244308d-e12e-4d99-a6c9-8a4b80cca924.svg)
+
+## Challenges
+
+The key challenges I had for this project were:
+
+- implementing the ability to vote and unvote while updating the count
+
+- getting new posts and comments to be displayed without refreshing the page
+
+- writing complete unit and integration tests for the controllers and REST endpoints
