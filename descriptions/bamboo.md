@@ -1,6 +1,6 @@
-# bamboo
+# [bamboo](https://github.com/phunky-panda94/bamboo)
 
-This is a Reddit clone project deployed using `heroku`.
+This is a full-stack Reddit clone project deployed using `heroku`.
 
 ## Technologies
 

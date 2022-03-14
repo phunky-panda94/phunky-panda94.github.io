@@ -1,6 +1,6 @@
-# Photo Tag
+# [Photo Tag](https://github.com/phunky-panda94/photo-tag)
 
-This project demonstrates the use of Front-end and Backend technologies.
+This project demonstrates the use of front-end and backend technologies.
 
 **Front-end**
 

@@ -1,4 +1,4 @@
-# Make-a-CV
+# [Make-a-CV](https://github.com/phunky-panda94/cv-project)
 
 This React app demonstrates use of:
 

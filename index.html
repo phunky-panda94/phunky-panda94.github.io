@@ -7,6 +7,16 @@
     <title>Victor's Portfolio</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <script>
+        function fullscreen(element) {
+            element.requestFullscreen();
+        }
+        function closeFullscreen() {
+            document.exitFullscreen();
+        }
+    </script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 </head>
 <body>
     <header class="bg-black white flex flex-ai-c flex-jc-c">
@@ -19,65 +29,80 @@
     </header>
     <main>
         <div class="content">
+            <div class="summary">
+                <zero-md src="README.md"></zero-md>
+            </div>
         </div>
         <div class="break">
             <h1>Tic-Tac-Toe</h1>
+            <span class="material-icons-outlined" onclick="fullscreen(document.getElementById('tic-tac-toe'))">open_in_full</span>
         </div>
-        <div class="content flex flex-jc-sb">
+        <div class="content">
+            <div class="description">
+                <zero-md src="descriptions/tic-tac-toe.md"></zero-md>
+            </div>
             <div>
-                <iframe class="page" src="https://tic-tac-toe-pp.netlify.app/" frameborder="0"></iframe>
+                <iframe id="tic-tac-toe" class="page" src="https://tic-tac-toe-pp.netlify.app/" frameborder="0"></iframe>
             </div>
         </div>
         <div class="break">
             <h1>Calculator</h1>
+            <span class="material-icons-outlined" onclick="fullscreen(document.getElementById('calculator'))">open_in_full</span>
         </div>
         <div class="content">
+            <div class="description">
+                <zero-md src="descriptions/calculator.md"></zero-md>
+            </div>
             <div>
-                <iframe class="page" src="https://calcuator-pp.netlify.app" frameborder="0"></iframe>
+                <iframe id="calculator" class="page" src="https://calcuator-pp.netlify.app" frameborder="0"></iframe>
             </div>
         </div>
         <div class="break">
             <h1>CV Maker</h1>
+            <span class="material-icons-outlined" onclick="fullscreen(document.getElementById('cv-maker'))">open_in_full</span>
         </div>
         <div class="content">
             <div class="description">
-                <object data="descriptions/cv-maker.md" type="text/html"></object>
+                <zero-md src="descriptions/cv-maker.md"></zero-md>
             </div>
             <div>
-                <iframe class="page" src="https://cv-maker-v1.netlify.app" frameborder="0"></iframe>
+                <iframe id="cv-maker" class="page" src="https://cv-maker-v1.netlify.app" frameborder="0"></iframe>
             </div>
         </div>
         <div class="break">
             <h1>Photo Tag</h1>
+            <span class="material-icons-outlined" onclick="fullscreen(document.getElementById('photo-tag'))">open_in_full</span>
         </div>
         <div class="content">
             <div class="description">
-                <object data="descriptions/photo-tag.md" type="text/html"></object>
+                <zero-md src="descriptions/photo-tag.md"></zero-md>
             </div>
             <div>
-                <iframe class="page" src="https://photo-tag.netlify.app" frameborder="0"></iframe>
+                <iframe id="photo-tag" class="page" src="https://photo-tag.netlify.app" frameborder="0"></iframe>
             </div>
         </div>
         <div class="break">
             <h1>Memory Card</h1>
+            <span class="material-icons-outlined" onclick="fullscreen(document.getElementById('memory-card'))">open_in_full</span>
         </div>
         <div class="content">
             <div class="description">
-                <object data="descriptions/memory-card.md" type="text/html"></object>
+                <zero-md src="descriptions/memory-card.md"></zero-md>
             </div>
             <div>
-                <iframe class="page" src="https://memory-card-v1.netlify.app/" frameborder="0"></iframe>
+                <iframe id="memory-card" class="page" src="https://memory-card-v1.netlify.app/" frameborder="0"></iframe>
             </div>
         </div>
         <div class="break">
             <h1>Bamboo</h1>
+            <span class="material-icons-outlined" onclick="fullscreen(document.getElementById('bamboo'))">open_in_full</span>
         </div>
         <div class="content">
             <div class="description">
-                <object data="descriptions/bamboo.md" type="text/html"></object>
+                <zero-md src="descriptions/bamboo.md"></zero-md>
             </div>
             <div>
-                <iframe class="page" src="https://bamboo-v1-client.netlify.app" frameborder="0"></iframe>
+                <iframe id="bamboo" class="page" src="https://bamboo-v1-client.netlify.app" frameborder="0"></iframe>
             </div>
         </div>
     </main>
