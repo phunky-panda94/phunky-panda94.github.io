@@ -9,7 +9,7 @@ Below of some web applications I've made that demonstrate the use of different f
 The main front-end technologies used include:
 
 - JavaScript
-- React
+- React & Redux
 - HTML
 - CSS
 
@@ -19,5 +19,6 @@ The main back-end technologies used include:
 - Express
 - MongoDB and Mongoose
 - REST APIs
+- GraphQL
 
 Heroku and Netlify have been used for deployment of these web applications.
