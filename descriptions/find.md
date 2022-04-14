@@ -9,6 +9,7 @@ This is a full-stack Seek clone project deployed using `heroku`.
 Using React and JavaScript:
 
 - state
+- Redux for state management
 - props
 - React Router
 - useEffect and useState hooks
@@ -21,7 +22,6 @@ Using Node.js, Express, MongoDB, Mongoose and GraphQL:
 - Unit and integration testing of GraphQL API using `Jest` and `supertest`
 - NoSQL models and queries
 - Authentication using `JWT` and `bcryptjs`
-- Input validation and sanitisation using `express-validator`
 
 ## UML
 
@@ -29,4 +29,5 @@ Using Node.js, Express, MongoDB, Mongoose and GraphQL:
 
 The key challenges I had for this project were:
 
-- implementing the correct logic for search options
+- implementing the correct UI logic for search options
+- implementing a custom dropdown for selecting different classifications and sub-classifications
