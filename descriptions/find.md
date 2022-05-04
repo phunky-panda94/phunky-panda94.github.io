@@ -12,7 +12,7 @@ Using React and JavaScript:
 - Redux for state management
 - props
 - React Router
-- useEffect and useState hooks
+- useEffect, useState, useSearchParams and useRef hooks
 
 **Backend**
 
