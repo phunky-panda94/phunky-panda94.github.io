@@ -30,4 +30,5 @@ Using Node.js, Express, MongoDB, Mongoose and GraphQL:
 The key challenges I had for this project were:
 
 - implementing the correct UI logic for search options
+- implementing the functionality to search by job title, category and location
 - implementing a custom dropdown for selecting different classifications and sub-classifications
